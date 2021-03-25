@@ -17,10 +17,15 @@
 body{
     font-family: 'Montserrat', sans-serif;
 }
-ul li{
+.right>ul li{
     list-style: none;
     display: inline-block;
-    padding: 0px 15px;
+    padding-left: 15px;
+}
+.left>ul li{
+    list-style: none;
+    display: inline-block;
+    padding-right: 15px;
 }
 a{
     text-decoration: none;
@@ -32,14 +37,14 @@ a{
     color:white;
     border-radius: 5px;
 }
-br{
+hr{
     color: rgba(145, 155, 159, 1);
 }
 
 /* dbg classes */
 
 .dbg_header{
-    height: 400px;
+    height: 100vh;
     background-color: blue;
 }
 .dbg_main{
@@ -51,10 +56,10 @@ br{
     background-color: red;
 }
 /* first_navbar section */
-.nav_bar{
+.nav_bar_one{
     background-color: rgba(244, 249, 253, 1);
 }
-.right, .left{
+.nav_bar_one>.right, .left{
     width: 50%;
     float: left;
     padding:20px 18px;
@@ -72,3 +77,48 @@ br{
     color: black;
 }
 /* second nav bar */
+.nav_bar_two {
+    background-color: white;
+}
+.nav_bar_two>.right, .left{
+    width: 50%;
+    float: left;
+    padding:20px 18px;
+}
+.mainlogo{
+    height: 20px;
+}
+/* jumbotron */
+.jumbotron{
+    height: 1100px;
+    background-image: url(/assets/hubspot/img/jumbotron.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+.first_text{
+    width: 33%;
+}
+.first_text>h1{
+    font-size: 3rem;
+    font-weight: 800;
+    padding: 1.5rem 0rem;
+}
+ .first_text p:not(:last-child){
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+.btn_lg{
+    padding: 15px;
+    border: 1px solid white;
+    background-color: rgba(254, 119, 90, 1);
+    color:white;
+    border-radius: 5px;
+}
+.first_text p:last-child{
+    font-weight: 200;
+    font-size: 0.75rem;
+    padding-top: 2rem;
+}
