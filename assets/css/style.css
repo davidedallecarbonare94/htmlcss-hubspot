@@ -1,0 +1,34 @@
+/* common rules */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.container{
+    width: 80%;
+    margin: auto;
+
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* dbg classes */
+
+.dbg_header{
+    height: 400px;
+    background-color: blue;
+}
+.dbg_main{
+    height: 800px;
+    background-color: yellow;
+}
+.dbg_footer{
+    height: 400px;
+    background-color: red;
+}
