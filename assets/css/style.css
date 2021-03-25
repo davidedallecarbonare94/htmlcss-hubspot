@@ -17,6 +17,24 @@
 body{
     font-family: 'Montserrat', sans-serif;
 }
+ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 0px 15px;
+}
+a{
+    text-decoration: none;
+}
+.btn {
+    padding: 7px 10px;
+    border: 1px solid white;
+    background-color: rgba(254, 119, 90, 1);
+    color:white;
+    border-radius: 5px;
+}
+br{
+    color: rgba(145, 155, 159, 1);
+}
 
 /* dbg classes */
 
@@ -32,3 +50,25 @@ body{
     height: 400px;
     background-color: red;
 }
+/* first_navbar section */
+.nav_bar{
+    background-color: rgba(244, 249, 253, 1);
+}
+.right, .left{
+    width: 50%;
+    float: left;
+    padding:20px 18px;
+}
+.right{
+    text-align: right;
+}
+.minibar{
+    height: 0.75rem;
+    width: 1px;
+    background-color: rgba(145, 155, 159, 1);
+    display: inline-block;
+}
+.left>ul>li>a{
+    color: black;
+}
+/* second nav bar */
