@@ -172,13 +172,16 @@ main{
 /* second row */
 .second_row{
     background-color: white;
+    border-radius: 5px;
     box-shadow: 1px 1px 3px grey;
     display: inline-block;
     width: 100%;
-    padding: 15px;
+    padding: 25px 0px 40px 0px;
+    margin-top: 50px;
 }
 .book{
-    height: 150px;
+    height: 100px;
+    padding-bottom: 20px;
     
 }
 .col_one{
@@ -191,10 +194,10 @@ main{
     float: left;
 }
 .col_two h3 {
-    padding: 20px 0px;
+    padding-bottom: 20px;
 }
 .col_two p:not(:last-child){
-    padding-bottom: 15px;
+    padding-bottom: 20px;
 }
 .col_two li{
     list-style: none;
@@ -211,4 +214,19 @@ main{
 .col_two p:last-of-type{
     text-transform: uppercase;
     font-weight: 800;
+}
+.btn_col{
+    padding: 15px 31px;
+    border: 1px solid white;
+    background-color: rgba(254, 119, 90, 1);
+    color: white;
+    border-radius: 5px;
+    font-size: 12px;
+}
+.grt_line{
+    height: 0.75rem;
+    width: 1px;
+    background-color: rgba(145, 155, 159, 1);
+    display: inline-block;
+    margin: 0px 15px;
 }
