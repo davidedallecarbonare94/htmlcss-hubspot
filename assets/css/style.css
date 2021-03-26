@@ -230,3 +230,22 @@ main{
     display: inline-block;
     margin: 0px 15px;
 }
+/* third row */
+.col{
+    width: calc(97%/3);
+    padding: 10px;
+    float: left;
+    text-align: center;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px grey;
+     
+}
+
+.third_row_img{
+    height: 100px;
+}
+.third_row ul>li{
+    list-style: none;
+    text-align: left;
+}
