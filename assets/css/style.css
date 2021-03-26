@@ -282,3 +282,8 @@ hr.divider{
     margin: 0 auto;
     margin-bottom: 1rem;  
 }
+/* green section */
+.green_section{
+    background: linear-gradient(90deg, #00ACB6 0%, #00BBA7 100%);
+    height: 400px;
+}
