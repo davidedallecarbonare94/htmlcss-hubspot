@@ -15,7 +15,9 @@
 
 }
 body{
+    min-width: 1400px;
     font-family: 'Montserrat', sans-serif;
+    color: rgba(52, 72, 92, 1);
 }
 .right>ul li{
     list-style: none;
@@ -36,6 +38,9 @@ a{
     color:white;
     border-radius: 5px;
 }
+.vrt_align{
+    vertical-align: middle;
+}
 hr{
     color:rgba(52, 72, 92, 1)
 }
@@ -48,6 +53,12 @@ ul > li > a .fa-chevron-down{
 ul > li > a .fa-chevron-down:last-child{
     padding: 0px 0px 0px 15px;
 }
+/* color palette */
+.darkblue{
+    background-color: rgba(52, 72, 92, 1);
+}
+
+
 /* dbg classes */
 
 .dbg_header{
@@ -69,7 +80,6 @@ ul > li > a .fa-chevron-down:last-child{
 .nav_bar_one .right, .left{
     width: 50%;
     float: left;
-    vertical-align: middle;
 }
 
 .right{
@@ -96,10 +106,10 @@ ul > li > a .fa-chevron-down:last-child{
     color: rgba(52, 72, 92, 1);
     
 }
-.nav_bar_two>.right, .left{
+.nav_bar_two .right, .left{
     width: 50%;
     float: left;
-    vertical-align: middle;
+
 }
 /* jumbotron */
 .jumbotron{
@@ -108,20 +118,21 @@ ul > li > a .fa-chevron-down:last-child{
     background-repeat: no-repeat;
     background-position: 100%;
     background-color: rgba(255, 242, 238, 1);
+    position: relative;
 }
 .first_text{
-    width: 33%;
+    width: 50%;
 }
 .first_text>h1{
-    font-size: 3rem;
+    font-size: 5rem;
     font-weight: 800;
     padding: 1.5rem 0rem;
 }
  .first_text p:not(:last-child){
-    font-weight: 400;
-    font-size: 1rem;
-    line-height: 1.5rem;
-    padding-bottom: 1.5rem;
+    font-weight: 200;
+    font-size: 1.5rem;
+    line-height: 1.75rem;
+    padding-bottom: 1.95rem;
 }
 .btn_lg{
     padding: 15px;
@@ -132,6 +143,16 @@ ul > li > a .fa-chevron-down:last-child{
 }
 .first_text p:last-child{
     font-weight: 200;
-    font-size: 0.75rem;
-    padding-top: 2rem;
+    font-size: 1rem;
+    padding-top: 2.5rem;
+}
+.greenbar{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 83px;
+    background-color: rgba(175, 235, 228, 1);
+    border-bottom: 4px solid rgba(52, 72, 92, 1);
+    border-top: 4px solid rgba(52, 72, 92, 1);
+
 }
