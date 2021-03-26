@@ -178,18 +178,37 @@ main{
     padding: 15px;
 }
 .book{
-    height: 100px;
+    height: 150px;
     
 }
 .col_one{
-    width: 40%;
+    width: 30%;
     float: left;
     text-align: center;
 }
 .col_two{
-    width: 60%;
+    width: 70%;
     float: left;
 }
 .col_two h3 {
     padding: 20px 0px;
+}
+.col_two p:not(:last-child){
+    padding-bottom: 15px;
+}
+.col_two li{
+    list-style: none;
+    display: inline-block;
+    padding-left: 15px;
+}
+.col_two li:first-child{
+    padding-left: 0;
+}
+.fa-check-circle{
+    color: rgba(254, 119, 90, 1);
+    padding-right: 15px;
+}
+.col_two p:last-of-type{
+    text-transform: uppercase;
+    font-weight: 800;
 }
