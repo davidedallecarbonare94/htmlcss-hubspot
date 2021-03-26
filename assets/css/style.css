@@ -231,15 +231,17 @@ main{
     margin: 0px 15px;
 }
 /* third row */
+.third_row{
+    margin-top: 50px;
+}
 .col{
     width: calc(97%/3);
-    padding: 10px;
+    padding: 50px 30px;
     float: left;
     text-align: center;
     background-color: white;
     border-radius: 5px;
     box-shadow: 1px 1px 3px grey;
-     
 }
 
 .third_row_img{
@@ -248,4 +250,35 @@ main{
 .third_row ul>li{
     list-style: none;
     text-align: left;
+}
+.third_row h3{
+    padding: 15px 0px;
+}
+.second_col{
+    margin: 0 30px;
+}
+aside p:first-of-type{
+    line-height: 2rem;
+    padding-bottom: 1rem;
+}
+aside p:last-of-type{
+    line-height: 2rem;
+    padding-bottom: 1rem;
+}
+aside ul>li{
+    line-height: 1.25rem;
+}
+aside p:last-of-type {
+    text-transform: uppercase;
+    font-weight: 800;
+}
+aside ul{
+    padding-bottom: 2.5rem;
+}
+hr.divider{
+    width: 70%;
+    height: 1px;
+    background-color: rgba(139, 149, 153, 1);
+    margin: 0 auto;
+    margin-bottom: 1rem;  
 }
