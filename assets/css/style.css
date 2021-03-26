@@ -154,6 +154,7 @@ main{
     background-color: rgba(244, 249, 253, 1);
     height: 2800px;
 }
+/* first raw */
 .first_raw{
     text-align: center;
     width: 50%;
@@ -165,5 +166,30 @@ main{
     height: 270px;
 }
 .first_raw h2{
+    font-size: 2rem;
     padding-bottom: 20px;
+}
+/* second row */
+.second_row{
+    background-color: white;
+    box-shadow: 1px 1px 3px grey;
+    display: inline-block;
+    width: 100%;
+    padding: 15px;
+}
+.book{
+    height: 100px;
+    
+}
+.col_one{
+    width: 40%;
+    float: left;
+    text-align: center;
+}
+.col_two{
+    width: 60%;
+    float: left;
+}
+.col_two h3 {
+    padding: 20px 0px;
 }
