@@ -25,7 +25,6 @@ body{
 .left>ul li{
     list-style: none;
     display: inline-block;
-    padding-right: 15px;
 }
 a{
     text-decoration: none;
@@ -38,13 +37,20 @@ a{
     border-radius: 5px;
 }
 hr{
-    color: rgba(145, 155, 159, 1);
+    color:rgba(52, 72, 92, 1)
 }
-
+.line_height{
+    line-height: 80px;
+}
+ul > li > a .fa-chevron-down{
+    padding: 0 15px;
+}
+ul > li > a .fa-chevron-down:last-child{
+    padding: 0px 0px 0px 15px;
+}
 /* dbg classes */
 
 .dbg_header{
-    height: 100vh;
     background-color: blue;
 }
 .dbg_main{
@@ -56,14 +62,16 @@ hr{
     background-color: red;
 }
 /* first_navbar section */
-.nav_bar_one{
+.bcgcolor {
     background-color: rgba(244, 249, 253, 1);
+    height: 80px;
 }
-.nav_bar_one>.right, .left{
+.nav_bar_one .right, .left{
     width: 50%;
     float: left;
-    padding:20px 18px;
+    vertical-align: middle;
 }
+
 .right{
     text-align: right;
 }
@@ -72,29 +80,34 @@ hr{
     width: 1px;
     background-color: rgba(145, 155, 159, 1);
     display: inline-block;
+    margin: 0px 15px;
 }
 .left>ul>li>a{
     color: black;
 }
+.search_icon{
+    height: 15px;
+}
+
 /* second nav bar */
 .nav_bar_two {
     background-color: white;
+    height: 80px;
+    color: rgba(52, 72, 92, 1);
+    
 }
 .nav_bar_two>.right, .left{
     width: 50%;
     float: left;
-    padding:20px 18px;
-}
-.mainlogo{
-    height: 20px;
+    vertical-align: middle;
 }
 /* jumbotron */
 .jumbotron{
-    height: 1100px;
+    height: 695px;
     background-image: url(/assets/hubspot/img/jumbotron.png);
-    background-size: 100%;
     background-repeat: no-repeat;
-    object-fit: cover;
+    background-position: 100%;
+    background-color: rgba(255, 242, 238, 1);
 }
 .first_text{
     width: 33%;
