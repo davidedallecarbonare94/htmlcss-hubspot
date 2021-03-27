@@ -16,7 +16,7 @@
 }
 body{
     min-width: 1400px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     color: rgba(52, 72, 92, 1);
 }
 .right>ul li{
@@ -97,12 +97,16 @@ ul > li > a .fa-chevron-down:last-child{
     background-color: white;
     height: 80px;
     color: rgba(52, 72, 92, 1);
-    
 }
-.nav_bar_two .right, .left{
+.mainlogo{
+    display: inline-block;
+    vertical-align: middle;
+}
+.nav_bar_two>.right, .left{
     width: 50%;
     float: left;
-
+    line-height: 80px;
+    vertical-align: middle;
 }
 /* jumbotron */
 .jumbotron{
@@ -117,13 +121,13 @@ ul > li > a .fa-chevron-down:last-child{
     width: 50%;
 }
 .first_text>h1{
-    font-size: 5rem;
+    font-size: 2.75rem;
     font-weight: 800;
     padding: 1.5rem 0rem;
 }
  .first_text p:not(:last-child){
-    font-weight: 200;
-    font-size: 1.5rem;
+    font-weight: 600;
+    font-size: 0.90rem;
     line-height: 1.75rem;
     padding-bottom: 1.95rem;
 }
@@ -135,8 +139,8 @@ ul > li > a .fa-chevron-down:last-child{
     border-radius: 5px;
 }
 .first_text p:last-child{
-    font-weight: 200;
-    font-size: 1rem;
+    font-weight: 400;
+    font-size: 0.65rem;
     padding-top: 2.5rem;
 }
 .greenbar{
@@ -154,8 +158,8 @@ main{
     background-color: rgba(244, 249, 253, 1);
     height: 2800px;
 }
-/* first raw */
-.first_raw{
+/* first row */
+.first_row{
     text-align: center;
     width: 50%;
     margin: 0 auto;
@@ -165,7 +169,7 @@ main{
 .cube{
     height: 270px;
 }
-.first_raw h2{
+.first_row h2{
     font-size: 2rem;
     padding-bottom: 20px;
 }
@@ -176,7 +180,7 @@ main{
     box-shadow: 1px 1px 3px grey;
     display: inline-block;
     width: 100%;
-    padding: 25px 0px 40px 0px;
+    padding: 40px 0px 40px 0px;
     margin-top: 50px;
 }
 .book{
@@ -195,6 +199,7 @@ main{
 }
 .col_two h3 {
     padding-bottom: 20px;
+    line-height: 1.5rem;
 }
 .col_two p:not(:last-child){
     padding-bottom: 20px;
