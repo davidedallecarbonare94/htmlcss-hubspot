@@ -91,7 +91,9 @@ ul > li > a .fa-chevron-down:last-child{
 .search_icon{
     height: 15px;
 }
-
+.fa-globe-europe{
+    padding-right: 3px;
+}
 /* second nav bar */
 .nav_bar_two {
     background-color: white;
@@ -103,6 +105,7 @@ ul > li > a .fa-chevron-down:last-child{
     vertical-align: middle;
 }
 .nav_bar_two>.right, .left{
+    font-size: 14px;
     width: 50%;
     float: left;
     line-height: 80px;
@@ -114,7 +117,7 @@ ul > li > a .fa-chevron-down:last-child{
     background-image: url(/assets/hubspot/img/jumbotron.png);
     background-repeat: no-repeat;
     background-position: 100%;
-    background-color: rgba(255, 242, 238, 1);
+    background-color: rgba(255, 244, 239, 1);
     position: relative;
 }
 .first_text{
@@ -167,17 +170,18 @@ main{
     line-height: 1.75rem;
 }
 .cube{
-    height: 270px;
+    height: 200px;
 }
 .first_row h2{
     font-size: 2rem;
     padding-bottom: 20px;
+    font-weight: 800;
 }
 /* second row */
 .second_row{
     background-color: white;
     border-radius: 5px;
-    box-shadow: 1px 1px 3px grey;
+    box-shadow: 0px 0px 6px -4px #000000;
     display: inline-block;
     width: 100%;
     padding: 40px 0px 40px 0px;
@@ -198,6 +202,7 @@ main{
     float: left;
 }
 .col_two h3 {
+    font-weight: 600;
     padding-bottom: 20px;
     line-height: 1.5rem;
 }
@@ -218,7 +223,7 @@ main{
 }
 .col_two p:last-of-type{
     text-transform: uppercase;
-    font-weight: 800;
+    font-weight: 600;
 }
 .btn_col{
     padding: 15px 31px;
@@ -237,47 +242,51 @@ main{
 }
 /* third row */
 .third_row{
-    margin-top: 50px;
+    margin: 40px 0px;
 }
 .col{
     width: calc(97%/3);
-    padding: 50px 30px;
+    padding: 20px 70px 30px 70px;
     float: left;
     text-align: center;
     background-color: white;
     border-radius: 5px;
-    box-shadow: 1px 1px 3px grey;
+    box-shadow: 0px 0px 6px -4px #000000;
 }
 
 .third_row_img{
-    height: 100px;
+    height: 90px;
 }
 .third_row ul>li{
     list-style: none;
     text-align: left;
 }
 .third_row h3{
-    padding: 15px 0px;
+    padding: 20px 0px;
+    font-weight: 600;
 }
 .second_col{
     margin: 0 30px;
 }
 aside p:first-of-type{
+    font-size: 15px;
     line-height: 2rem;
     padding-bottom: 1rem;
 }
 aside p:last-of-type{
+    font-weight: 600;
     line-height: 2rem;
     padding-bottom: 1rem;
 }
 aside ul>li{
-    line-height: 1.25rem;
+    line-height: 1rem;
 }
 aside p:last-of-type {
     text-transform: uppercase;
     font-weight: 800;
 }
 aside ul{
+    font-size: 15px;
     padding-bottom: 2.5rem;
 }
 hr.divider{
@@ -290,5 +299,5 @@ hr.divider{
 /* green section */
 .green_section{
     background: linear-gradient(90deg, #00ACB6 0%, #00BBA7 100%);
-    height: 400px;
+    height: 800px;
 }
