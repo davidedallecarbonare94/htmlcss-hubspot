@@ -159,8 +159,8 @@ ul > li > a .fa-chevron-down:last-child{
 MAIN ***********************************************************/
 main{
     background-color: rgba(244, 249, 253, 1);
-    height: 2800px;
 }
+
 /* first row */
 .first_row{
     text-align: center;
@@ -317,7 +317,7 @@ hr.divider{
     padding: 20px;
 }
 .whitelogo{
-    height: 35px;
+    height: 30px;
 }
 .quarter h2{
     padding: 15px 0px;
@@ -336,4 +336,90 @@ hr.divider{
 }
 .grid .quarter:last-of-type{
     border-right: transparent;
+}
+/* customer section */
+.cust_back{
+    padding-top: 30px;
+    background-color: white;
+}
+.customers{
+    width: 65%;
+    margin: 0 auto;
+}
+.cust_numbers{
+    width: 10%;
+    text-align: left;
+    float: left;
+}
+.cust_numbers>h2{
+    font-size: 2.5rem;
+    padding-bottom: 25px;
+}
+.cust_numbers p{
+    font-size: 0.95rem;
+    line-height: 1.5rem;
+}
+.cust_logos{
+    height: 50px;
+    width: 90%;
+    text-align: right;
+    float: left;
+    line-height: 50px;
+}
+.cust_logos img{
+    padding: 0px 0px 15px 25px
+}
+.top_logos img{
+    vertical-align: middle;
+}
+.low_logos img {
+    vertical-align: middle;
+}
+
+#purple{
+    height: 60px;
+    padding-right: 10px;
+}
+#g2{
+    height: 55px;
+}
+#doordash{
+    height: 35px;
+}
+#atlasian{
+    height: 35px;
+}
+#vmware{
+    height: 47px;
+    padding-left: 60px;
+}
+#classpass{
+    height: 60px;
+}
+#wistia{
+    height: 40px;
+}
+#subaru{
+    height: 60px;
+}
+/* growth section */
+.growth{
+    height: 500px;
+    background-color: green;
+}
+.start{
+    float: left;
+    background-color: violet;
+    height: 400px;
+    width: 25%;
+}
+.woman{
+    float: left;
+    width: 75%;
+    height: 400px;
+    background-color: yellow;
+    text-align: right;
+}
+.woman img{
+    height: 350px;
 }
