@@ -437,7 +437,7 @@ FOOTER******************************************************/
     padding-top: 20px;
     height: 500px;
 }
-.link_col>ul>li{
+.languages+.link_col>ul>li{
     list-style-type: none;
 }
 .link_col{
@@ -469,4 +469,17 @@ FOOTER******************************************************/
 #supp_btn{
     margin: 15px 0px;
     color: rgba(50, 73, 91, 1);
+}
+.languages{
+    padding: 30px 0px;
+    text-align: center;
+    border-bottom: 1px solid rgba(218, 222, 224, 1);
+}
+.languages>ul>li{
+    display: inline-block;
+}
+.languages>ul>li a{
+    color: white;
+    padding-right: 25px;
+    
 }
