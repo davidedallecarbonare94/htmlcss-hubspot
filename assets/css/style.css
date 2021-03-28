@@ -404,7 +404,7 @@ hr.divider{
 }
 /* growth section */
 .growth{
-    padding-top: 40px;
+    padding: 40px 0px;
 }
 .start{
     float: left;
@@ -429,4 +429,44 @@ hr.divider{
 .start p:last-child{
     padding-top: 25px;
     font-size: 0.75rem;
+}
+/* *********************************************************
+FOOTER******************************************************/
+.footer{
+    background-color: rgba(50, 73, 91, 1);
+    padding-top: 20px;
+    height: 500px;
+}
+.link_col>ul>li{
+    list-style-type: none;
+}
+.link_col{
+    text-align: left;
+    width: calc(100%/4);
+    float: left;
+}
+.link_col a{
+    color: white;
+}
+.link_col>ul li:first-child{
+    font-weight: 600;
+    padding-bottom: 15px;
+}
+.link_col>ul li:not(:first-child){
+    line-height: 1.75rem;
+}
+.logo_sm{
+    padding-right: 25px;
+}
+.white_btn{
+    border: 1px solid white;
+    background: rgba(218, 222, 224, 1);
+    border-radius: 5px;
+    padding: 10px 10px;
+    font-size: 14px;
+    margin: 20px 0px;
+}
+#supp_btn{
+    margin: 15px 0px;
+    color: rgba(50, 73, 91, 1);
 }
