@@ -10,7 +10,7 @@
     clear: both;
 }
 .container{
-    width: 80%;
+    width: 50%;
     margin: auto;
 
 }
@@ -266,7 +266,7 @@ main{
     font-weight: 600;
 }
 .second_col{
-    margin: 0 30px;
+    margin: 0 18px;
 }
 aside p:first-of-type{
     font-size: 15px;
@@ -343,11 +343,11 @@ hr.divider{
     background-color: white;
 }
 .customers{
-    width: 65%;
+    width: 45%;
     margin: 0 auto;
 }
 .cust_numbers{
-    width: 10%;
+    width: 20%;
     text-align: left;
     float: left;
 }
@@ -361,7 +361,7 @@ hr.divider{
 }
 .cust_logos{
     height: 50px;
-    width: 90%;
+    width: 80%;
     text-align: right;
     float: left;
     line-height: 50px;
@@ -404,22 +404,29 @@ hr.divider{
 }
 /* growth section */
 .growth{
-    height: 500px;
-    background-color: green;
+    padding-top: 40px;
 }
 .start{
     float: left;
-    background-color: violet;
-    height: 400px;
-    width: 25%;
+    width: 30%;
 }
 .woman{
     float: left;
-    width: 75%;
-    height: 400px;
-    background-color: yellow;
+    width: 70%;
     text-align: right;
 }
 .woman img{
-    height: 350px;
+    height: 300px;
+}
+.start h2{
+    padding-bottom: 20px;
+}
+.start p{
+    line-height: 1.75rem;
+    padding-bottom: 25px;
+    font-size: 1.05rem;
+}
+.start p:last-child{
+    padding-top: 25px;
+    font-size: 0.75rem;
 }
