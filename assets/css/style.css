@@ -480,6 +480,31 @@ FOOTER******************************************************/
 }
 .languages>ul>li a{
     color: white;
-    padding-right: 25px;
-    
+    padding-right: 25px;   
+}
+.credits{
+    padding-top: 30px;
+}
+.credits .legal_stuff{
+    width: 50%;
+    float: left;
+    text-align: right;
+}
+.credits .copyright{
+    width: 50%;
+    float: left;
+    text-align: left;
+}
+.legal_stuff>ul>li{
+    display: inline-block;
+}
+.legal_stuff>ul>li a{
+    text-decoration: none;
+    color: white;
+    padding-left: 20px;
+    font-size: 14px;
+}
+.copyright p{
+    color: white;
+    font-size: 14px;
 }
