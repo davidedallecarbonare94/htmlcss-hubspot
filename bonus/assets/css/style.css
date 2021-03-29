@@ -586,5 +586,7 @@ FOOTER******************************************************/
 }
 .left>ul>li>.dropdown>.dropbtn+.dropdown-content {
     min-width: 130px;
-
+}
+.dropbtn > .dropdown {
+    text-decoration: none;
 }
